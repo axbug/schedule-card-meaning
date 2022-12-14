@@ -1,4 +1,31 @@
 {
+<<<<<<< HEAD
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "通信行程卡-纪念版",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/home/result",
+		"style": {
+			"navigationBarTitleText": "通信行程卡-纪念版",
+			"navigationStyle": "custom"
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "通信行程卡-纪念版",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+=======
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
@@ -12,5 +39,6 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+>>>>>>> 8bbf6f4 (🎨 创建脚手架)
 	}
 }
