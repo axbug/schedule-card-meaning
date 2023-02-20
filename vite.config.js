@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
 	defineConfig
 } from 'vite'
@@ -10,14 +9,7 @@ import {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	build: {
-		minify: 'terser',
-		terserOptions: {
-			compress: {
-				drop_console: true,
-			},
-		},
-	},
+	base:"./",
 	plugins: [
 		progress({
 		  format: 'building [:bar] :percent',
@@ -32,15 +24,8 @@ export default defineConfig({
 		alias: {
 			'@': resolve(__dirname, './src')
 		}
+	},
+	server:{
+		port:3000
 	}
 })
-=======
-import { defineConfig } from 'vite'
-import uni from '@dcloudio/vite-plugin-uni'
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [
-    uni(),
-  ],
-})
->>>>>>> 8bbf6f4 (🎨 创建脚手架)

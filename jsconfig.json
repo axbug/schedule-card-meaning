@@ -4,7 +4,6 @@
       "@dcloudio/types",
       "miniprogram-api-typings",
       "mini-types"
-<<<<<<< HEAD
     ],
     "target": "esnext",
     "useDefineForClassFields": true,
@@ -26,8 +25,4 @@
     }
   },
   "exclude": ["node_modules", "dist"]
-=======
-    ]
-  }
->>>>>>> 8bbf6f4 (🎨 创建脚手架)
 }
